@@ -5,10 +5,10 @@ import clsx from "clsx";
 
 const Header = () => {
   const links: { id: number; label: string; link: string }[] = [
-    { id: 1, label: "Home", link: "/home" },
-    { id: 2, label: "History", link: "/history" },
-    { id: 3, label: "Beautiful Photo", link: "/photo" },
-    { id: 4, label: "Love", link: "/love" },
+    { id: 1, label: "Home", link: "/AboutUs/home" },
+    { id: 2, label: "History", link: "/AboutUs/history" },
+    { id: 3, label: "Beautiful Photo", link: "/AboutUs/photo" },
+    { id: 4, label: "Love", link: "/AboutUs/love" },
   ];
   
   return (
