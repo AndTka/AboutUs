@@ -19,6 +19,7 @@
     display: flex;
     width: fit-content;
     height: 54px;
+    gap: 16px;
 
     .link {
       display: block;
