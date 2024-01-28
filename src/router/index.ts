@@ -17,4 +17,5 @@ export const routes: routesParams[] = [
   { path: '/AboutUs/photo', component: PhotoPage, active: true },
   { path: '/AboutUs/love', component: LovePage, active: true },
   { path: '/AboutUs/*', component: HomePage, active: true },
+  
 ];
