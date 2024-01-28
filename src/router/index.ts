@@ -16,4 +16,5 @@ export const routes: routesParams[] = [
   { path: '/history', component: HistoryPage, active: true },
   { path: '/photo', component: PhotoPage, active: true },
   { path: '/love', component: LovePage, active: true },
+  { path: '/*', component: HomePage, active: true },
 ];
