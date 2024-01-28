@@ -11,9 +11,9 @@ interface routesParams {
 }
 
 export const routes: routesParams[] = [
-  { path: '/AboutUs', component: HomePage, active: true },
-  { path: '/AboutUs/home', component: HomePage, active: true },
-  { path: '/AboutUs/history', component: HistoryPage, active: true },
-  { path: '/AboutUs/photo', component: PhotoPage, active: true },
-  { path: '/AboutUs/love', component: LovePage, active: true },
+  { path: '/', component: HomePage, active: true },
+  { path: '/home', component: HomePage, active: true },
+  { path: '/history', component: HistoryPage, active: true },
+  { path: '/photo', component: PhotoPage, active: true },
+  { path: '/love', component: LovePage, active: true },
 ];
