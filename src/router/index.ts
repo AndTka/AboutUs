@@ -8,6 +8,6 @@ interface routesParams {
 }
 
 export const routes: routesParams[] = [
-  { path: '/', component: HomePage, active: true },
+  { path: '/AboutUs', component: HomePage, active: true },
   
 ];
